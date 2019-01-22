@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/photo_view0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/photo_view1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView        android:id="@+id/photo_view23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/np"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/floor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:np_dividerDistance="95dp" />
+
+    <TextView
+        android:id="@+id/floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="10sp"
+        android:text="Floor"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

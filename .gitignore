@@ -1,0 +1,41 @@
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# temporary files
+ignore/
+
+# targets
+*.class
+*.jar
+ballot.csv
+audit.txt
+Project1/testing/auditTest.txt
+bin/
+
+# gradle
+.gradle
+**/build
+
+
+# eclipse
+.metadata
+.settings/
+.buildpath
+.classpath
+.project
+
+# intellij
+*.iml
+.idea/
+
+# vscode
+.vscode/
+
+# macos
+.DS_Store
+
+# backups
+*~

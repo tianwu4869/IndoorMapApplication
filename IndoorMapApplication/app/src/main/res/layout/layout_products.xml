@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:contextClickable="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:padding="4dp"
+                android:src="@drawable/cmu" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:fontFamily="serif"
+                android:text="Coffman Memorial Union"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTitle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:text="Hours: 6:55 AM - 11:00 PM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/jumpButton"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewShortDesc"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:background="@color/cardview_dark_background"
+                android:fontFamily="serif"
+                android:lineSpacingExtra="10sp"
+                android:onClick="jumpToBd"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="Click to see details"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
